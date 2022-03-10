@@ -1,0 +1,11 @@
+node_modules
+.vercel
+.next
+.vercel
+.DS_Store
+
+node_modules
+
+#Hardhat files
+cache
+artifacts

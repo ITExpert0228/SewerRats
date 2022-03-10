@@ -1,0 +1,224 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+body,
+html,
+#__next {
+    height: 100%;
+    background-color: black;
+    color: #fff;
+}
+
+.border-emboss {
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.border-deboss {
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.font-sedgwick {
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.bg-rainbow {
+    background: linear-gradient(310deg, #311ca5, #65fff9, #67258c, #c1c1c1);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+.bg-cheese-rainbow {
+    background: linear-gradient(310deg, #007f5fff, #2b9348ff, #55a630ff, #80b918ff, #aacc00ff, #bfd200ff, #d4d700ff, #dddf00ff, #eeef20ff, #ffff3fff);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 26% 0%;
+    }
+    50% {
+        background-position: 75% 100%;
+    }
+    100% {
+        background-position: 26% 0%;
+    }
+}
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 26% 0%;
+    }
+    50% {
+        background-position: 75% 100%;
+    }
+    100% {
+        background-position: 26% 0%;
+    }
+}
+@keyframes AnimationName {
+    0% {
+        background-position: 26% 0%;
+    }
+    50% {
+        background-position: 75% 100%;
+    }
+    100% {
+        background-position: 26% 0%;
+    }
+}
+
+.star-wars {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 800px;
+    color: #feda4a;
+    /* font-family: 'Pathway Gothic One', sans-serif; */
+    font-size: 500%;
+    font-weight: 600;
+    letter-spacing: 6px;
+    line-height: 150%;
+    perspective: 400px;
+    text-align: justify;
+}
+
+.crawl {
+    position: relative;
+    top: 9999px;
+    transform-origin: 50% 100%;
+    animation: crawl 60s linear;
+}
+
+.crawl > .title {
+    font-size: 90%;
+    text-align: center;
+}
+
+.crawl > .title h1 {
+    margin: 0 0 100px;
+    text-transform: uppercase;
+}
+
+@keyframes crawl {
+    0% {
+        top: 0;
+        transform: rotateX(20deg) translateZ(0);
+    }
+    100% {
+        top: -6000px;
+        transform: rotateX(25deg) translateZ(-2500px);
+    }
+}
+
+.bg-sky {
+    background: linear-gradient(131deg, #d9d63d, #d96e3d, #ff5a0f, #0fa8ff, #054e78, #1e0f3c, #1e0f3c);
+    background-size: 1400% 1400%;
+
+    -webkit-animation: AnimationName 29s ease infinite;
+    -moz-animation: AnimationName 29s ease infinite;
+    animation: AnimationName 29s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 97% 0%;
+    }
+    50% {
+        background-position: 4% 100%;
+    }
+    100% {
+        background-position: 97% 0%;
+    }
+}
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 97% 0%;
+    }
+    50% {
+        background-position: 4% 100%;
+    }
+    100% {
+        background-position: 97% 0%;
+    }
+}
+@keyframes AnimationName {
+    0% {
+        background-position: 97% 0%;
+    }
+    50% {
+        background-position: 4% 100%;
+    }
+    100% {
+        background-position: 97% 0%;
+    }
+}
+@font-face {
+    font-family: 'Eurostile Extended';
+    src: url('/fonts/EurostileExtended-Black.woff2') format('woff2'), url('/fonts/EurostileExtended-Black.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+.font-extended {
+    font-family: 'Eurostile Extended', sans-serif;
+}
+
+.top-triangle {
+    width: 0;
+    height: 0;
+    margin-top: -0.6rem;
+    margin-left: 2rem;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid rgb(217, 119, 6);
+}
+
+.__react_component_tooltip .multi-line{
+    text-align: left !important;
+}
+
+.error-message{
+    text-align: center;
+    padding: 200px;
+    font-size: 2em;
+}
+
+.network-switch{
+    position: fixed;
+    top: 20px;
+    right: 10px;
+    z-index: 99;
+}
+
+.network-switch a{
+    background-color: #444;
+    display: inline-block;
+    padding: 10px 13px;
+    border-radius: 10px;
+    transition: all 0.3s ease-out;
+    margin: 0 10px;
+}
+
+.network-switch a:hover{
+    background-color: #666;
+}
+
+.network-switch a.active{
+    background-color: #f6b739;
+    color: #000;
+}
