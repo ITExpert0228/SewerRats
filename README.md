@@ -1,4 +1,4 @@
-# Sweer Rats NFT Staking
+# Sewer Rats NFT Staking Project
 ## SewerRats
 
 A complete NFT staking website with Minting and Gallery features. Based off of the SewerRats website: [app.sewerrats.io](https://app.sewerrats.io/).
