@@ -1,3 +1,4 @@
+//Test scripts for NFT rewarding contract
 const { expectRevert } = require('@openzeppelin/test-helpers');
 const { web3 } = require('@openzeppelin/test-helpers/src/setup');
 const {
