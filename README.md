@@ -1,5 +1,4 @@
-# Sewer Rats NFT Staking Project
-## SewerRats
+# SewerRats for NFT Staking and Rewarding
 
 A NFT staking and reward project with the integration of OpenSea. Based off of the SewerRats website: [app.sewerrats.io](https://app.sewerrats.io/).
 
