@@ -1,3 +1,5 @@
+// Test scripts for NFT stacking contract
+// Before having uni-tests, need to deploy ERC721 and ERC1155 contracts for Opensea compatibility.
 const { expectRevert } = require('@openzeppelin/test-helpers');
 const { web3 } = require('@openzeppelin/test-helpers/src/setup');
 const {
