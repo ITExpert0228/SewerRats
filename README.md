@@ -75,3 +75,13 @@ i.e:
 ```
 $ truffle test ../test/presale/token.test.js --compile-none
 ```
+
+### Rinkeby Test network 
+
+SERC20:  0xC8a02227058026D5072bd0471f30934A0D2803B7 
+
+SRSC(RatERC721):  0x2aC005beE2ff28ad46DB5fCcb5222b29D346e4Df 
+
+SRSCCheddaz(ChedERC721): 0xF6c616E7dc75eBa82ca77E10FC23c305be8498aA 
+
+ChizDispenserV4:  0x394daC740B43318270FC4Ca0c9B95038D43B822B 
