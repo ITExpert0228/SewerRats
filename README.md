@@ -1,9 +1,10 @@
 # Sewer Rats NFT Staking Project
 ## SewerRats
 
-A complete NFT staking website with Minting and Gallery features. Based off of the SewerRats website: [app.sewerrats.io](https://app.sewerrats.io/).
+A NFT staking and reward project with the integration of OpenSea. Based off of the SewerRats website: [app.sewerrats.io](https://app.sewerrats.io/).
 
 ## Setup
+### Frontend Setup
 Clone this repo and enter the project directory:
 
 ```sh
@@ -15,16 +16,16 @@ Install dependencies:
 $ npm install
 ```
 
-## Development
+### Development
 Run the local webpack-dev-server with livereload and autocompile on [http://localhost:3000/](http://localhost:3000/)
 ```sh
 $ npm start
 ```
-## Deployment
+### Deployment
 Build the current application
 ```sh
 $ npm run build
 ```
 
-## React
+### React
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
